@@ -205,6 +205,6 @@ const posts = [
     // Add more posts as needed
 ];
 
-const interval = 60 * 1000; // 2 hours in milliseconds
+const interval = 60 * 1000; // 60 secondes pour tester
 
 scheduleMultiplePosts(posts, interval);
